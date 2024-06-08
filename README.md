@@ -8,7 +8,6 @@ This project is a Java implementation of the original K3 game, built using Maven
 
 ## Features
 
-- [x] Play in your terminal.
 - [x] Play using a graphical user interface.
 - [x] Build a mountain in the first phase.
 - [x] Place your pieces on the central mountain in the second phase.
@@ -25,7 +24,7 @@ To run Kube on your local machine, make sure you have Java Development Kit (JDK)
 1. Clone this repository to your local machine:
 
 ```bash
-git clone git@github.com:comejv/kube.git
+git clone git@github.com:notrage/kube.git
 ```
 
 2. Navigate to the project directory:
@@ -69,4 +68,3 @@ In the second phase, you place your pieces on the central mountain, taking turns
 - [Auto build sound from Pixabay](https://pixabay.com/sound-effects/small-rock-break-194553/)
 - [Remove sound from Pixabay](https://pixabay.com/sound-effects/swoop1-108087/)
 - [Build and swap sounds from Sapsplat](https://www.zapsplat.com/sound-effect-category/rock/)
-
