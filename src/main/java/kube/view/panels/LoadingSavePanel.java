@@ -85,6 +85,11 @@ public class LoadingSavePanel extends JPanel {
     public void updateList() {
 
         File folder = new File(Config.SAVING_PATH_DIRECTORY);
+
+        if (!folder.exists()) {
+            folder.mkdirs();
+        }
+        
         File[] listOfFiles = folder.listFiles((dir, name) -> name.endsWith(Config.SAVING_FILE_EXTENSION));
         String[] fileNames = Arrays.stream(listOfFiles).map(File::getName).toArray(String[]::new);
 
